@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="stage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tallerautos.tallerautos.Controllers.HelloController">
+   <children>
+      <ImageView fitHeight="560.0" fitWidth="988.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/imgs/Taller de.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="empezar" layoutX="35.0" layoutY="38.0" mnemonicParsing="false" onMouseClicked="#empezarOnMouseClicked" style="-fx-background-color: FFF;" text="Empezar">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Label fx:id="espacios" layoutX="650.0" layoutY="50.0" textFill="#1b0909">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="mecanico_1" fitHeight="40.0" fitWidth="87.0" layoutX="277.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/mecanico1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mecanico_2" fitHeight="40.0" fitWidth="87.0" layoutX="399.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/mecanico2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mecanico_3" fitHeight="40.0" fitWidth="87.0" layoutX="519.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/mecanico3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mecanico_4" fitHeight="40.0" fitWidth="87.0" layoutX="638.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/mecanico4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mecanico_5" fitHeight="40.0" fitWidth="87.0" layoutX="755.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/mecanico1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mecanico_6" fitHeight="40.0" fitWidth="87.0" layoutX="277.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/mecanico2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mecanico_7" fitHeight="27.0" fitWidth="87.0" layoutX="405.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/mecanico3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mecanico_8" fitHeight="27.0" fitWidth="87.0" layoutX="527.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/mecanico4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mecanico_10" fitHeight="27.0" fitWidth="87.0" layoutX="762.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/mecanico1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mecanico_9" fitHeight="27.0" fitWidth="87.0" layoutX="650.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@assets/imgs/mecanico2.png" />
+         </image>
+      </ImageView>
+
+
+      <ImageView fitHeight="70.0" fitWidth="100.0" layoutX="601.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/imgs/mecanico.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
